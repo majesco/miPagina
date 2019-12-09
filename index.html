@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+        .col-margin {
+            margin: 1em;
+        }
+        .fab:hover,
+        button:hover {
+            color: #a991d4;
+        }
+        #page-content {
+            flex: 1 0 auto;
+        }
+        #sticky-footer {
+            flex-shrink: none;
+        }
+        ul.ul-style {
+            list-style-type: square;
+        }
+        h1 {
+            font-size: 2.2rem;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column">
+    <div id="page-content">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">
+                <h1>Nicolás Jiménez García</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item active nav-item-spacing">
+                        <a class="nav-link" href="#">
+                            <h3>Bio</h3><span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-item-spacing">
+                        <a class="nav-link" href="#/projects">
+                            <h3>Projects</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-item-spacing">
+                        <a class="nav-link" href="#/blog">
+                            <h3>Blog</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-item-spacing">
+                        <a class="nav-link" href="#/contact">
+                            <h3>Contact</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-sm col-margin">
+                    <div>
+                        <img src="nicolas-website.jpg" class="rounded-circle mx-auto d-block w-50" alt="Nicolas Jimenez Profile's Photo">
+                    </div>
+
+                    <p class="text-justify my-3">
+                        Hello and Welcome! My name is Nicolás Jiménez García, I am a 25 years-old
+                        Software Engineer from Costa Rica!
+                        I am passionate about Computer Science and several fields
+                        such as Algorithms, Systems Design, Big Data
+                        and learning/developing with cutting-edge technologies.
+                    </p>
+                    <p class="text-justify my-3">
+                        I like to learn new technologies and develop challenging projects.
+                        Here, I would like to publicly share some of my recent work and projects
+                        that may be interesting to you!
+                    </p>
+                    <p class="text-justify my-3">
+                        In my spare time I enjoy playing the piano, travelling, reading, playing video games, sports and more!
+                        I write some of my thoughts, experiences and knowledge about all of those topics.
+                    </p>
+
+                    <div class="container mt-5">
+                        <h4 class="text-center">Find me on:</h4>
+                        <div class="row">
+                            <div class="col-sm text-center col-margin">
+                                <a class="mx-1" href="https://github.com/majesco"><i class="fab fa-github fa-3x"></i></a>
+                                <a class="mx-1" href="https://www.linkedin.com/in/nicol%C3%A1s-jim%C3%A9nez-a7347752/"><i class="fab fa-linkedin fa-3x"></i></a>
+                                <a class="mx-1" href="https://www.hackerrank.com/nicolas_j2007/"><i class="fab fa-hackerrank fa-3x"></i></a>
+                                <a class="mx-1" href="https://www.freecodecamp.org/majesco"><i class="fab fa-free-code-camp fa-3x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-sm text-center col-margin">
+                                <button onclick="window.open('resume-latest.pdf')" type="button" class="btn btn-primary"><i class="fas fa-download"></i> Download Résumé</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm col-margin">
+
+                    <div class="card border-primary mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h2 class="text-center">Education</h2>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title font-weight-bold">Tecnológico de Costa Rica (TEC)</h4>
+                            <p class="card-text font-weight-bold">Bachelor in Computer Engineering (2012 - 2018)</p>
+                            <p class="text-justify">This is a 5-years major, which
+                                combines Computer Science and Electrical Engineering. I learned, worked
+                                and researched about Algorithms, Data Structures, Databases, Compilers, Operating Systems,
+                                Web Development, Project managing/requirements/design, Circuits in Direct and Altern
+                                Current, Analogic and Digital Systems design and Computers' Architecture.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card border-primary mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h2 class="text-center">Work Experience</h2>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title font-weight-bold">Object Technology Solutions (OTSI)</h4>
+                            <p class="card-text font-weight-bold">Embedded Software Engineer (January 2018 - October 2019)</p>
+                            <p class="text-justify">
+                                Development and testing of networking features for embedded systems on networking devices. It has to do with networking protocols and development in
+                                C/C++ and Python.
+                            </p>
+                            <h4 class="card-title font-weight-bold">Hewlett Packard Enterprise (HPE)</h4>
+                            <p class="card-text font-weight-bold">Software Engineer Internship (June - December 2017)</p>
+                            <p class="text-justify">
+                                This internship is about researching and developing software that runs on switches.
+                                Developing includes: compilers, operating systems, routers and network protocols.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card border-primary mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h2 class="text-center">Projects</h2>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title font-weight-bold">Learning Management System</h4>
+                            <p class="card-text font-weight-bold">MyLearn (November 2016)</p>
+                            <p class="text-justify">During college, our team of 4 designed and developed a Web App that is a
+                                learning and freelance platform for students, professors and employers, aimed to ease the learning
+                                and hiring experience. It is developed using various technologies and frameworks such as: Angular
+                                and Bootstrap in the Front-End and C# and SQL-Server on the Back-End.
+                            </p>
+                            <h4 class="card-title font-weight-bold">Code Compiler</h4>
+                            <p class="card-text font-weight-bold">Marble Machine (June 2015)</p>
+                            <p class="text-justify">During college, our team of 6 designed and developed a custom Machine
+                                Language Parser and Compiler (Code Interpreter) to control the behacior of a Marble Machine
+                                by translating custom code (command instructions) into Arduino code. This project included an IU
+                                and is implemented with Java and Arduino (Hardware and Software).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card border-primary mb-3">
+                        <div class="card-header bg-primary text-white">
+                            <h2 class="text-center">Skills</h2>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title font-weight-bold">Tecnológico de Costa Rica (TEC)</h4>
+                            <p class="card-text font-weight-bold">Bachelor in Computer Engineering (2012 - 2018)</p>
+                            <p class="text-justify">This is a 5-years major, which
+                                combines Computer Science and Electrical Engineering. I learned, worked
+                                and researched about Algorithms, Data Structures, Databases, Compilers, Operating Systems,
+                                Web Development, Project managing/requirements/design, Circuits in Direct and Altern
+                                Current, Analogic and Digital Systems design and Computers' Architecture.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="sticky-footer" class="py-4 bg-primary  text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>About this website</h2>
+                    <p class="text-justify">
+                        I initially launched this website to share some of my professional projects and work experience
+                        to the world 🌐:)
+                        <br>Additionally, to share some personal thoughts, interests and random interesting stuff!🎉
+                        <br>📍San Jose, Costa Rica
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Find me on:</h2>
+                    <p>Some links to my Social Media Profiles:</p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <ul class="ul-style">
+                                    <li><a class="text-white" href="https://github.com/majesco"><i class="fab fa-github"></i></a></li>
+                                    <li><a class="text-white" href="https://www.linkedin.com/in/nicol%C3%A1s-jim%C3%A9nez-a7347752/"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a class="text-white" href="https://www.facebook.com/nicolas.jimenez.731"><i class="fab fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul class="ul-style">
+                                    <li><a class="text-white" href="https://www.hackerrank.com/nicolas_j2007/"><i class="fab fa-hackerrank"></i></a></li>
+                                    <li><a class="text-white" href="https://www.freecodecamp.org/majesco"><i class="fab fa-free-code-camp"></i></a></li>
+                                    <li><a class="text-white" href="https://www.instagram.com/nicolasjimenezg"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Copyright</h2>
+                    <p>To build this website I used the following technologies and resources:</p>
+                    <ul class="ul-style">
+                        <li><a class="text-white" href="https://getbootstrap.com/">Bootstrap 4</a></li>
+                        <li><a class="text-white" href="https://bootswatch.com/pulse/">Bootswatch</a></li>
+                        <li><a class="text-white" href="https://startbootstrap.com/snippets">Start Bootstrap snippets</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <small class="font-weight-light"><i class="far fa-copyright"></i> 2019 Nicolás Jiménez &#127464;&#127479;</small>
+        </div>
+    </footer>
+</body>
+
+</html>
